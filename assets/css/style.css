@@ -356,11 +356,17 @@ footer {
     }
 
     .button[type="submit"] {
-        margin-top: 15px;
-        margin-bottom: 20px;
-        color: #f4f4f4;
+        margin: 2%;
+               color: #f4f4f4;
         background-color: #e84610;
+        
     }
+
+    .btn btn-secondary{
+        margin: 2%;
+      }
+
+    
 @media screen and (max-width: 426px) {
 .logo {
     background: url("../images/christina.jpg");
