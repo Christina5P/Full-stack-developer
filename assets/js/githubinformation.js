@@ -14,7 +14,6 @@ function userInformationHTML(user) {
             <p>Followers: ${user.followers} - Following ${user.following} <br> Repos: ${user.public_repos}</p>
         </div>`;
 }
-
 function repoInformationHTML(repos) {
     if (repos.length == 0) {
         return `<div class="clearfix repo-list">No repos!</div>`;
@@ -35,7 +34,6 @@ function repoInformationHTML(repos) {
                 </ul>
             </div>`;
 }
-
 function fetchGitHubInformation(event) {
     $("#gh-user-data").html("");
     $("#gh-repo-data").html("");
