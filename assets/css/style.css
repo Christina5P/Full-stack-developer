@@ -61,6 +61,17 @@ body {
     color: #555555;
 }
 
+/* picture */
+.padding-y {
+    padding-top: 20px; /* Lägg till padding ovanför */
+    padding-bottom: 20px; /* Lägg till padding nedanför */
+}
+
+.padding-left {
+    padding-left: 15px; /* Justera värdet efter behov */
+}
+
+
 /* ----------------------------------------Special paddings/margins/text */
 
 h1,
@@ -87,13 +98,6 @@ h4 {
 .row-table {
     display: table;
 }
-
-/*
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}*/
 
 .history-heading,
 .section-heading {
@@ -141,14 +145,6 @@ header {
     color: #fff;
 }
 
-/*
-.list-inline-item:not(:last-child) {
-    margin: 0;
-}
-
-.menucontainer {
-    font-size: 0;
-}*/
 #nav {
     margin: 0;
 }
