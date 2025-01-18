@@ -61,16 +61,6 @@ body {
     color: #555555;
 }
 
-/* picture */
-.padding-y {
-    padding-top: 20px; /* Lägg till padding ovanför */
-    padding-bottom: 20px; /* Lägg till padding nedanför */
-}
-
-.padding-left {
-    padding-left: 15px; /* Justera värdet efter behov */
-}
-
 
 /* ----------------------------------------Special paddings/margins/text */
 
